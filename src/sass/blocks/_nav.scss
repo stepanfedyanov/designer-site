@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__btns {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        font-family: 'Roboto Slab';
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: left;
+        color: #323232;
+        margin-right: 20px;
+        margin-right: 20px;
+        &:hover {
+            color: #323232;
+        }
+    }
+}
