@@ -1,0 +1,50 @@
+.circles {
+    display: flex;
+    height: 340px;
+    width: 400px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    &_purple {
+        background-color: #be2edd;
+    }
+    &_yellow {
+        background-color: #f9ca24;
+    }
+    &_pink {
+        background-color: #ff7675;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+    &__text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50%;
+        font-family: 'PTSans';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        span {
+            font-family: 'Roboto Slab';
+            font-size: 36px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.78;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}
