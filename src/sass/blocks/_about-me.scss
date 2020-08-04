@@ -18,4 +18,8 @@
     &__circles {
         position: relative;
     }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

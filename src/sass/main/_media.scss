@@ -1,3 +1,25 @@
+@media (max-width: 1024px) {
+    .circles {
+        width: 295px;
+    }
+    .circle {
+        width: 148px;
+        height: 148px;
+        &__text {
+            left: 17%;
+        }
+        &__pink {
+            bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me__circles {
+        display: none;
+    }
+}
+
 @media (max-width: 425px) {
     .nav__btns {
         display: none;
@@ -8,5 +30,28 @@
     .btn_mtl {
         margin-top: 20px;
         margin-left: 0;
+    }
+    .tittle__text {
+        font-size: 22px;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+        &__text {
+            left: 17%;
+        }
+    }
+    .circles {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px ) {
+    .tittle__text {
+        font-size: 16px;
+        &::before {
+            display: none;
+        }
     }
 }

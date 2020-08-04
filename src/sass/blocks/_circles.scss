@@ -22,12 +22,13 @@
         left: 25%;
     }
     &__text {
+        width: 95px;
         position: absolute;
         top: 50%;
+        left: 25%;
         transform: translateY(-50%);
-        right: 50%;
         font-family: 'PTSans';
-        font-size: 16px;
+        font-size: 13px;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -37,7 +38,7 @@
         color: #ffffff;
         span {
             font-family: 'Roboto Slab';
-            font-size: 36px;
+            font-size: 33px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
