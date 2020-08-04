@@ -1,4 +1,4 @@
-.tittle {
+.title {
     &__sub {
         font-family: 'Roboto Slab';
         font-size: 22px;
@@ -39,6 +39,16 @@
             bottom: 6px;
             background-color: #00b894;
             z-index: -2;
+        }
+        &_big {
+            font-size: 48px;
+        }
+        &_center {
+            display: block;
+            text-align: center;
+            &::before {
+                width: 470px;
+            }
         } 
     }
 }
