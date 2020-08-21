@@ -12,12 +12,26 @@
             bottom: 100px;
         }
     }
+    .services__wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .services__item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 768px) {
     .about-me__circles {
         display: none;
     }
+    .skills .skill__line {
+        width: 300px;
+    }
+    
 }
 
 @media (max-width: 425px) {
@@ -45,6 +59,7 @@
         height: 250px;
         width: 300px;
     }
+
 }
 
 @media (max-width: 375px ) {
