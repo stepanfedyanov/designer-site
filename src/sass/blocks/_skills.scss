@@ -51,36 +51,51 @@
                     height: 15px;
                     background-color: #ffffff;
                     border-radius: 100%;
-                    &::before {
-                        content: '100%';
-                        font-family: 'Roboto Slab';
-                        font-size: 16px;
-                        font-weight: normal;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 3.13;
-                        letter-spacing: normal;
-                        text-align: center;
-                        color: #ffffff;
-                    }
+                }
+                &::before {
+                    position: absolute;
+                    right: -10px;
+                    top: -60px;
+                    content: '';
+                    font-family: 'Roboto Slab';
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 3.13;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #ffffff;
                 }
                 &_92 {
                     width: 92%;
+                    &::before {
+                        content: '92%';
+                    }
                 }
                 &_85 {
                     width: 85%;
+                    &::before {
+                        content: '85%';
+                    }
                 }
                 &_97 {
                     width: 97%;
+                    &::before {
+                        content: '97%';
+                    }
                 }
                 &_90 {
                     width: 90%;
-                }
-                &_95 {
-                    width: 95%;
+                    &::before {
+                        content: '90%';
+                    }
                 }
                 &_72 {
                     width: 72%;
+                    &::before {
+                        content: '72%';
+                    }
                 }
             }
 
