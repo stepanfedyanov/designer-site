@@ -10,12 +10,14 @@
         }
     }
     &__tabs {
+        padding: 0;
         margin-top: 20px;
         margin-bottom: 60px;
         display: flex;
         flex-wrap: wrap;
     }
     &__tab {
+        list-style: none;
         font-family: 'Roboto Slab';
         font-size: 14px;
         font-weight: normal;
@@ -28,22 +30,25 @@
         &_active {
             color: #00b894;
         }
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
 .work {
     &__item {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 320px;
-        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 370px;
+        height: 350px;
         background-color: #828282;
     }
     &__opacity {
         padding: 60px 41px;
         opacity: 0;
-        width: 320px;
-        height: 300px;
+        width: 370px;
+        height: 350px;
         background-color: #e66d6d;
         transition: 0.5s;
         &:hover {

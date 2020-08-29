@@ -1,0 +1,61 @@
+.feedback {
+    min-height: 787px;
+    padding-bottom: 150px;
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        padding: 70px 50px;
+        padding-left: 40px;
+        width: 535px;
+        height: 396px;
+        border: solid 1px #bebebec2;
+    }
+    &__text {
+        font-family: 'PTSans';
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        margin-top: 20px;
+    }
+    &__contact {
+        margin-top: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__avatar {
+        width: 70px;
+        height: 70px;
+        background-color: #828282;
+        border-radius: 100%;
+        margin-right: 15px;
+    }
+    &__name {
+        font-family: 'Roboto Slab';
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+        span {
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+    &__name-box {
+        display: flex;
+        align-items: center;
+    }
+}
