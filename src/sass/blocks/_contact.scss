@@ -1,0 +1,44 @@
+.contact {
+    min-height: 650px;
+    &__flexbox {
+        display: flex;
+    }
+    &__photo {
+        width: 845px;
+        height: 650px;
+        background-color: #929292;
+    }
+    &__wrapper {
+        padding-left: 100px;
+    }
+    &__area {
+        width: 285px;
+        height: 45px;
+        border: solid 0.5px #83838370;
+        font-family: 'PTSans';
+        font-size: 16px;
+        padding-left: 20px;
+        &_text {
+            resize: none;
+            width: 600px;
+            height: 150px;
+            margin-top: 30px;
+            padding-top: 17px;
+        }
+        &_mr {
+            margin-right: 30px;
+        }
+    }
+    &__btn {
+        width: 156px;
+        height: 45px;
+        background-color: #00b894;
+        font-family: 'PTSans';
+        font-size: 16px;
+        color: #ffffff;
+        border: none;
+        display: block;
+        margin-top: 30px;
+    }
+
+}

@@ -1,4 +1,12 @@
+
+
 @media (max-width: 1024px) {
+    .news__item {
+        margin-bottom: 20px;
+    }
+    .contact__photo {
+        display: none;
+    }
     .circles {
         width: 295px;
     }
@@ -8,9 +16,9 @@
         &__text {
             left: 17%;
         }
-        &__pink {
-            bottom: 100px;
-        }
+    }
+    .circle__pink {
+        bottom: 100px;
     }
     .services__wrapper {
         margin-top: 80px;
@@ -22,6 +30,11 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .feedback__item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -30,6 +43,9 @@
     }
     .skills .skill__line {
         width: 300px;
+    }
+    .contact__wrapper {
+        padding: 10px 10px;
     }
     
 }
@@ -68,6 +84,12 @@
         span {
             font-size: 14px;
         }
+    }
+    .contact__area_text {
+        width: 285px;
+    }
+    .contact__area_mr {
+        margin-bottom: 30px;
     }
 
 }
