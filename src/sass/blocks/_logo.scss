@@ -1,0 +1,13 @@
+.logo-many {
+    min-height: 230px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

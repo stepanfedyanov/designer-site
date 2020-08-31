@@ -1,0 +1,102 @@
+footer {
+    padding-top: 80px;
+    min-height: 436px;
+    background-color: #f5f6fb;
+}
+
+.footer {
+    &__up {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    &__text {
+        margin-top: 40px;
+        font-family: 'PTSans';
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.87;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707070;
+    }
+    &__title {
+        margin-bottom: 35px;
+        font-family: 'Roboto Slab';
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: left;
+        letter-spacing: normal;
+        color: #323232;
+    }
+    &__link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: 'PTSans';
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: left;
+        letter-spacing: normal;
+        color: #707070;
+        display: block;
+    }
+    &__form {
+        display: flex;
+    }
+    &__input {
+        padding-left: 15px;
+        width: 248px;
+        height: 45px;
+        font-family: 'PTSans';
+        font-size: 14px;
+        border: solid 1px #bebebec2;
+        background-color: #f5f6fb;
+        color: rgba(112, 112, 112, 0.5);
+        margin: 0;
+    }
+    &__btn {
+        width: 45px;
+        height: 45px;
+        background-color: #00b894;
+        border: none;
+        margin: 0;
+    }
+    &__down {
+        padding-top: 29px;
+        padding-bottom: 29px;
+        width: 100%;
+        min-height: 83px;
+        border-top: solid 1px #bebebec2;
+        &-flex {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    &__payment {
+        display: flex;
+        &-text {
+            font-family: PTSans;
+            font-size: 15px;
+            color: #707070;
+            margin-right: 5px;
+        }
+        &-img {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    }
+    &__copyright {
+        font-family: 'PTSans';
+        font-size: 15px;
+        color: #707070;
+    }
+}
