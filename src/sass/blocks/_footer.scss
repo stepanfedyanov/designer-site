@@ -83,6 +83,7 @@ footer {
     }
     &__payment {
         display: flex;
+        align-items: center;
         &-text {
             font-family: PTSans;
             font-size: 15px;

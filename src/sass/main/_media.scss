@@ -1,4 +1,8 @@
-
+@media (min-width: 1920px ) {
+    .contact__wrapper {
+        width: 710px;
+    }
+}
 
 @media (max-width: 1024px) {
     .contact__photo {
@@ -51,6 +55,16 @@
     .footer__column {
         margin-top: 10px;
     }
+    .feedback__wrapper {
+        justify-content: center;
+    }
+    .footer__column {
+        width: 288px;
+    }
+    .logo-many__img {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     
 }
 
@@ -95,6 +109,9 @@
     .contact__area_mr {
         margin-bottom: 30px;
     }
+    .works__wrapper_1 {
+        justify-content: center;
+    }
 
 }
 
@@ -113,6 +130,9 @@
     }
     .feedback__text {
         font-size: 14px;
+    }
+    .footer__payment-text {
+        margin-right: 4px;
     }
 }
 
